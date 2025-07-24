@@ -1,0 +1,3 @@
+name = "your-worker"
+type = "javascript"
+main = "src/worker.js"
