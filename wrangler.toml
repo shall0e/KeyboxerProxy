@@ -1,3 +1,3 @@
-name = "keyproxy"
+name = "keyboxerproxy1"
 main = "worker.js"
 compatibility_date = "2025-07-24"
