@@ -1,0 +1,15 @@
+            - name: Deploy to Cloudflare Workers with Wrangler
+  # You may pin to the exact commit or the version.
+  # uses: cloudflare/wrangler-action@c25aadc9657b0cdc4786c04e59a6fe92765a783b
+  uses: cloudflare/wrangler-action@v3.1.0
+  with:
+    # Your Cloudflare API Token
+    apiToken: MKKPdcsVnCWtsdB0yU0zFZ9Jj1GGTqkZolbU2kZL
+    # Your Cloudflare Account ID
+    accountId: 6dab50879b984a2ccb966bd79aff8aaa
+    # Supresses output from Wrangler commands, defaults to `false`
+    postCommands: # optional
+    
+    command: |
+      wrangler publish --env keyboxerproxy1
+      wrangler publish --env keyboxerproxy2
