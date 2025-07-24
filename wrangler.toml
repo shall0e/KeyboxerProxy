@@ -1,2 +1,2 @@
 name = "keyproxy"
-main = "src/worker.js"
+main = "worker.js"
